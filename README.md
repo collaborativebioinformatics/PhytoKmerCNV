@@ -1,7 +1,6 @@
 # SVHack_Plants
 
-![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/a31baf4c-6221-4c8e-8e11-bba55073af25)
-
+![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/e39a0720-6713-4850-839d-19db22802217)
 
 <br>
 </br>
