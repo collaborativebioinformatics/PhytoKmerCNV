@@ -12,3 +12,8 @@
 
 ![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/a6bc5081-eb60-4b9c-9354-be54630aad45)
 
+<br>
+</br>
+
+## Pipeline Schematic
+![pipeline-figure drawio](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/6e1e3141-742a-4f54-8fa2-af21c2abe7e5)
