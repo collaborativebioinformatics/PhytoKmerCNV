@@ -35,6 +35,13 @@
 <br>
 </br>
 
+## DNAnexus Setup
+
+* Start an analysis with the `tty` image
+* git clone this repository
+* Set up the compute environment by executing `scripts/setup_environment.sh`. This creates the conda environment `plantkmer` that installs all required software and can be activated using `conda activate plantkmer`
+* The data in the DNAnexus environment is available in `/mnt/project/`
+
 ## Benchmarking Goals
 We will work together today across 4 timezones to get our DNAnexus workspace booted up. The goal is to have a working prototype of our pipeline implemented by tomorrow.
 
