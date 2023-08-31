@@ -13,7 +13,6 @@
 * The more R genes plants have, the more likely they can defend against threats
 * Plants don’t have antibodies
 * These genes are transcribed and they’re then used in RNAinterference; there’s hairpins in the genes and they have some regions which target the pathogen sequences
-
 <br>
 </br>
 
