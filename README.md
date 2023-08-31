@@ -36,10 +36,16 @@
 </br>
 
 ## Benchmarking Goals
-Work together today across 4 timezones to get our DNAnexus workspace booted up and the general pipeline implemented
+We will work together today across 4 timezones to get our DNAnexus workspace booted up. The goal is to have a working prototype of our pipeline implemented by tomorrow.
 
 <br>
 </br>
 
 ## Finetuning Experiments
-Actively discussing and planning finetuning experiments to bring our project home by the hackathon's end
+We are actively discussing and planning finetuning experiments to bring our project home by the hackathon's end
+
+<br>
+</br>
+
+## Manuscript 
+By tomorrow morning, we will contribute 6 paragraphs to the collective manuscript document. 
