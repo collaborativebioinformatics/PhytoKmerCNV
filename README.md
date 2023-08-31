@@ -1,19 +1,33 @@
 # SVHack_Plants
 
+## Our 2023 Hackathon Team
 ![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/e39a0720-6713-4850-839d-19db22802217)
 
 <br>
 </br>
 
-![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/f7e3d074-f78d-41ea-b147-d9b0bb3dd1a8)
+## Project Overview
+![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/5ad66f81-6b4b-4e1f-aabf-6b8f15dbe19e)
 
 <br>
 </br>
 
-![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/a6bc5081-eb60-4b9c-9354-be54630aad45)
+## Expected Workflow
+![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/9ccf6ac8-e713-48a9-9893-fbc50ed3ada7)
+
 
 <br>
 </br>
 
 ## Pipeline Schematic
 ![pipeline-figure drawio](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/6e1e3141-742a-4f54-8fa2-af21c2abe7e5)
+
+<br>
+</br>
+
+## Benchmarking Goals
+Get our DNAnexus workspace booted up, the tomato
+
+<br>
+</br>
+## Finetuning Experiments
