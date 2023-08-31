@@ -10,3 +10,4 @@ dependencies:
   - seqtk =1.4
   - samtools =1.17
   - sra-tools =3.0.7
+  - awscli
