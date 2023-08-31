@@ -27,8 +27,10 @@
 </br>
 
 ## Benchmarking Goals
-Get our DNAnexus workspace booted up, the tomato
+Work together today across 4 timezones to get our DNAnexus workspace booted up and the general pipeline implemented
 
 <br>
 </br>
+
 ## Finetuning Experiments
+Actively discussing and planning finetuning experiments to bring our project home by the hackathon's end
