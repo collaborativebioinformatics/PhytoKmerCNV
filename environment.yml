@@ -1,0 +1,12 @@
+name: plantkmer
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python =3.10.12
+  - kmer-jellyfish =2.3.0
+  - blast =2.14.1
+  - seqtk =1.4
+  - samtools =1.17
+  - sra-tools =3.0.7
