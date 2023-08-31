@@ -1,7 +1,8 @@
 # SVHack_Plants
 
 ## Our 2023 Hackathon Team
-![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/e39a0720-6713-4850-839d-19db22802217)
+![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/15585c2b-4060-45ad-94ec-a8c7f6adefb9)
+
 
 <br>
 </br>
