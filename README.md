@@ -3,6 +3,16 @@
 ## Our 2023 Hackathon Team
 ![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/15585c2b-4060-45ad-94ec-a8c7f6adefb9)
 
+## Biological Scope
+* NBS (nucleotide binding site) + LRR (leucine-rich repeats) domains are well-studied
+* Plants don’t have immune systems the way other organisms and mammals have
+* These NBS-LRR (R genes) act as plant immune systems
+* They typically cluster in the same regions and evolve quickly
+* The more R genes plants have, the more likely they can defend against threats
+* Plants don’t have antibodies
+* These genes are transcribed and they’re then used in RNAinterference; there’s hairpins in the genes and they have some regions which target the pathogen sequences
+* There’s an evolutionary arms race between evolving resistance and the pathogen evolving to escape this detection
+* LRR and NBS domains are relatively conserved (despite the rapid evolutionary pressure on plant defense genes)
 
 <br>
 </br>
