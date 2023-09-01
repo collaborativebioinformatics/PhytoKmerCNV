@@ -47,5 +47,15 @@ Parameters:
 * test and tune various parameters to improve CNVs
 * apply the tool to other systems!!! :)  
 
+Next Steps: Moving forward, several promising next steps are on the horizon.
+
+- Expansion to Other Plant Species: Extending the application of PhytoKmerCNV to a broader range of plant species, especially those with unique genomic characteristics, will enhance its utility in diverse research contexts.
+
+- Integration of Phenotypic Data: Incorporating phenotypic data alongside CNV analysis can uncover genotype-phenotype relationships, shedding light on the functional significance of CNVs, particularly in the context of disease resistance and other traits.
+
+- User-Friendly Interface: Developing a user-friendly interface and detailed documentation will make the tool more accessible to researchers with varying levels of computational expertise.
+
+- Community Collaboration: Encouraging collaboration and feedback from the research community will foster improvements and adaptations of PhytoKmerCNV to meet evolving research needs.
+
 ## Acknowledgements
 We thank the participants of the 2023 hackathon for ideas and inspiration that greatly improved our work. We also thank Ben Busby and Fritz Sedlazeck for running the hackathon and securing funding and compute resources. 
