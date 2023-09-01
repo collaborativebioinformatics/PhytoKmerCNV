@@ -1,4 +1,4 @@
-# SVHack_Plants
+# PhytoKmerCNV
 
 ## Our 2023 Hackathon Team
 ![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/15585c2b-4060-45ad-94ec-a8c7f6adefb9)
