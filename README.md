@@ -23,6 +23,18 @@ The pipeline was designed to run on the DNAnexus platform but can be deployed on
 * Activate the project environment using `conda activate plantkmer`
 * The data in the DNAnexus environment is available in `/mnt/project/`
 
+## Software Usage
+
+The main pipeline script is `scripts/PhytoKmerCNV.sh`. The software in `requirements.yml` must be available for the pipeline to run, see above for setting up a suitable conda enviroment.
+
+```
+PhytoKmerCNV.sh -i <input-fastq> [-t <threads>]
+
+Parameters:
+-i input FASTQ file (mandatory)
+-t number of threads (optional, default 1)
+```
+
 ## Future steps
 
 
