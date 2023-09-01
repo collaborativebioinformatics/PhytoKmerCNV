@@ -47,7 +47,9 @@ These practical use cases illustrate the versatility of PhytoKmerCNV for CNV ana
 Objective: Compare CNV patterns of NBS-LRR genes across multiple plant species.
 
 * Input: Sequencing Reads (FASTA): Raw sequencing reads from various plant species, including tomato, potato, and eggplant (e.g., "tomato_genome.fasta," "potato_genome.fasta," "eggplant_genome.fasta").
-* Parameters: Reference K-mers (FASTA): K-mers representing known NBS-LRR genes in tomato (e.g., "tomato_NBS_LRR_kmers.fasta"). Species Annotations (GFF3): Genome annotations for each species, specifying gene locations (e.g., "tomato_annotations.gff3," "potato_annotations.gff3," "eggplant_annotations.gff3").
+* Parameters:
+  * Reference K-mers (FASTA): K-mers representing known NBS-LRR genes in tomato (e.g., "tomato_NBS_LRR_kmers.fasta").
+  * Species Annotations (GFF3): Genome annotations for each species, specifying gene locations (e.g., "tomato_annotations.gff3," "potato_annotations.gff3," "eggplant_annotations.gff3").
 * Output: CNV Comparison (CSV): A comparative table summarizing CNV estimates for NBS-LRR genes in each species, highlighting variations and conserved patterns (e.g., "NBS_LRR_CNV_comparison.csv").
 
 ### Use Case 2: Assessing Copy Number Variation in Non-Model Plant Genomes
