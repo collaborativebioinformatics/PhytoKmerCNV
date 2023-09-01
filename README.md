@@ -44,32 +44,26 @@ Parameters:
 ## Practical Use Cases
 These practical use cases illustrate the versatility of PhytoKmerCNV for CNV analysis in plant genomes. Researchers can adapt the tool to address a wide range of research questions, from investigating genetic diversity to understanding the functional implications of CNVs in plant biology. The provided examples of input and output files, along with explanations of parameters, facilitate its application in diverse research contexts.
 
-* Use Case 1: Comparative Analysis of NBS-LRR CNV Across Plant Species
+### Use Case 1: Comparative Analysis of NBS-LRR CNV Across Plant Species
 Objective: Compare CNV patterns of NBS-LRR genes across multiple plant species.
 
-Input: Sequencing Reads (FASTA): Raw sequencing reads from various plant species, including tomato, potato, and eggplant (e.g., "tomato_genome.fasta," "potato_genome.fasta," "eggplant_genome.fasta").
+* Input: Sequencing Reads (FASTA): Raw sequencing reads from various plant species, including tomato, potato, and eggplant (e.g., "tomato_genome.fasta," "potato_genome.fasta," "eggplant_genome.fasta").
+* Parameters: Reference K-mers (FASTA): K-mers representing known NBS-LRR genes in tomato (e.g., "tomato_NBS_LRR_kmers.fasta"). Species Annotations (GFF3): Genome annotations for each species, specifying gene locations (e.g., "tomato_annotations.gff3," "potato_annotations.gff3," "eggplant_annotations.gff3").
+* Output: CNV Comparison (CSV): A comparative table summarizing CNV estimates for NBS-LRR genes in each species, highlighting variations and conserved patterns (e.g., "NBS_LRR_CNV_comparison.csv").
 
-Parameters: Reference K-mers (FASTA): K-mers representing known NBS-LRR genes in tomato (e.g., "tomato_NBS_LRR_kmers.fasta"). Species Annotations (GFF3): Genome annotations for each species, specifying gene locations (e.g., "tomato_annotations.gff3," "potato_annotations.gff3," "eggplant_annotations.gff3").
-
-Output: CNV Comparison (CSV): A comparative table summarizing CNV estimates for NBS-LRR genes in each species, highlighting variations and conserved patterns (e.g., "NBS_LRR_CNV_comparison.csv").
-
-* Use Case 2: Assessing Copy Number Variation in Non-Model Plant Genomes
+### Use Case 2: Assessing Copy Number Variation in Non-Model Plant Genomes
 Objective: Estimate CNV in a non-model plant genome lacking extensive resequencing data.
 
-Input: Sequencing Reads (FASTA): Raw sequencing reads from 32 individual genomes of a non-model plant species (e.g., "speciesA_genome1.fasta," "speciesA_genome2.fasta," etc.).
+* Input: Sequencing Reads (FASTA): Raw sequencing reads from 32 individual genomes of a non-model plant species (e.g., "speciesA_genome1.fasta," "speciesA_genome2.fasta," etc.).
+* Parameters: Reference K-mers (FASTA): A set of K-mers representing known NBS-LRR genes in the plant species of interest (e.g., "NBS_LRR_kmers.fasta").
+* Output: CNV Estimates (CSV): A table providing CNV estimates for NBS-LRR genes in each genome, including gene identifiers and inferred copy numbers (e.g., "CNV_estimates_speciesA.csv").
 
-Parameters: Reference K-mers (FASTA): A set of K-mers representing known NBS-LRR genes in the plant species of interest (e.g., "NBS_LRR_kmers.fasta").
-
-Output: CNV Estimates (CSV): A table providing CNV estimates for NBS-LRR genes in each genome, including gene identifiers and inferred copy numbers (e.g., "CNV_estimates_speciesA.csv").
-
-* Use Case 3: Low-Pass Sequencing for CNV Analysis
+### Use Case 3: Low-Pass Sequencing for CNV Analysis
 Objective: Assess CNV using low-pass sequencing data to reduce costs.
 
-Input: Sequencing Reads (FASTA): Low-pass sequencing reads from a set of 20 genomes (e.g., "low_pass_genomes.fasta").
-
-Parameters: Reference K-mers (FASTA): K-mers representing known NBS-LRR genes in the target species (e.g., "target_species_NBS_LRR_kmers.fasta").
-
-Output: CNV Estimates (CSV): A table providing CNV estimates for NBS-LRR genes using the cost-effective low-pass sequencing approach (e.g., "CNV_estimates_low_pass_genomes.csv").
+* Input: Sequencing Reads (FASTA): Low-pass sequencing reads from a set of 20 genomes (e.g., "low_pass_genomes.fasta").
+* Parameters: Reference K-mers (FASTA): K-mers representing known NBS-LRR genes in the target species (e.g., "target_species_NBS_LRR_kmers.fasta").
+* Output: CNV Estimates (CSV): A table providing CNV estimates for NBS-LRR genes using the cost-effective low-pass sequencing approach (e.g., "CNV_estimates_low_pass_genomes.csv").
 
 
 ## Future work
