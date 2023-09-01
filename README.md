@@ -1,42 +1,21 @@
 # PhytoKmerCNV
 
-## Our 2023 Hackathon Team
+This project is a product of the 2023 Pan-Structural Variation Hackathon in the Cloud that took place from 8/30-9/1/2023 hosted by [Baylor College of Medicine](https://www.bcm.edu) and sponsored by [DNAnexus](https://www.dnanexus.com). 
+
+## Team
 ![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/15585c2b-4060-45ad-94ec-a8c7f6adefb9)
 
-## Biological Scope
-* Plants don’t have immune systems the way other organisms and mammals have
-* There’s an evolutionary arms race between evolving resistance and the pathogen evolving to escape this detection
-* NBS (nucleotide binding site) + LRR (leucine-rich repeats) domains widely-conserved and well-studied regions of plant genomes
-* LRR and NBS domains are relatively conserved (despite the rapid evolutionary pressure on plant defense genes)
-* These NBS-LRR (R genes) act as the immune systems in plants
-* They typically cluster in the same regions and evolve quickly
-* The more R genes plants have, the more likely they can defend against threats
-* Plants don’t have antibodies
-* These genes are transcribed and they’re then used in RNAinterference; there’s hairpins in the genes and they have some regions which target the pathogen sequences
-<br>
-</br>
+## Background
+Copy number variation (CNV) is a common form of structural variant polymorphism in which segments of DNA are duplicated or deleted compared to a reference genome [1](https://www.nature.com/articles/nature05329#Sec4). CNV is an important factor in genome evolution [2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2989995/) and has been linked to phenotypic variation [3](https://www.science.org/doi/10.1126/science.83.2148.210) as well as to human disease [4](https://link.springer.com/article/10.1007/s40484-018-0137-6). Methods to detect CNV using whole-genome sequencing have typically used coverage-based approaches wherein reads are mapped to a reference genome assembly and CNV detected as deviations in coverage over a genomic region compared to the background [5](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1). However, these coverage-based approaches are subject to ascertainment bias as they can only detect CNV of sequences present in the reference assembly and thus are unable to fully capture the spectrum of CNV within a population. Additionally, the coverage-based methods to detect CNV are dependent on a genome assembly, which is not available for non-model systems.  
+Here we present KmerGenoQuant, an alternative approach for producing copy number estimates of sequences of interest from K-mer abundances in whole-genome sequencing reads. The approach is based on comparing the K-mer frequency distributions between reads likely originating to sequences of interest to the respective distribution for the whole sample. As a use case, we have developed our tool with the objective of estimating the copy number of R genes in a collection of resequenced tomato genomes. R genes (also called NBS-LRR proteins) are disease resistance genes in plants that are characterized by having both a nucleotide binding (NBS) and leucine-rich repeat (LRR) domains [6](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2006-7-4-212). R genes are rapid evolving, with copy number variation observed both between and within plant species [7](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC152331/), [8](https://www.pnas.org/doi/10.1073/pnas.1318211110). 
 
-## Project Overview
-![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/5ad66f81-6b4b-4e1f-aabf-6b8f15dbe19e)
-
-<br>
-</br>
-
-## Expected Workflow
-![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/9ccf6ac8-e713-48a9-9893-fbc50ed3ada7)
-
-
-<br>
-</br>
-
-## Pipeline Schematic
+## Pipeline
 ![pipeline-figure drawio](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/6e1e3141-742a-4f54-8fa2-af21c2abe7e5)
 
-<br>
-</br>
+The pipeline takes as input whole-genome sequencing reads. The reads are first adapter and quality trimmed before being converted to FASTA format. The FASTA formatted reads are then queried to a database of NBS-LRR proteins to identify reads likely containing sequences from genes of this family (hereafter captured reads). K-mers are then counted in both the captured reads as well as the full sample and the distributions are then used to produce copy number estimates. 
 
 ## DNAnexus Setup
-
+The pipeline was designed to run on the DNAnexus platform but can be deployed on any Linux machine. Software dependencies are handled using conda. Here's how to set up the pipeline on DNAnexus:
 * Start an analysis with the `tty` image
 * git clone this repository and cd into the checked out repository
 * Set up the compute environment by executing `scripts/setup_environment.sh`. This creates the conda environment `plantkmer` that installs all required software.
@@ -44,17 +23,8 @@
 * Activate the project environment using `conda activate plantkmer`
 * The data in the DNAnexus environment is available in `/mnt/project/`
 
-## Benchmarking Goals
-We will work together today across 4 timezones to get our DNAnexus workspace booted up. The goal is to have a working prototype of our pipeline implemented by tomorrow.
+## Future steps
 
-<br>
-</br>
 
-## Finetuning Experiments
-We are actively discussing and planning finetuning experiments to bring our project home by the hackathon's end
-
-<br>
-</br>
-
-## Manuscript 
-By tomorrow morning, we will contribute 6 paragraphs to the collective manuscript document. 
+## Acknowledgements
+We thank the participants of the 2023 hackathon for ideas and inspiration that greatly improved our work. We also thank Ben Busby and Fritz Sedlazeck for running the hackathon and securing funding and compute resources. 
