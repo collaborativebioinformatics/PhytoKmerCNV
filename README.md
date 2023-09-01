@@ -1,4 +1,5 @@
-![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/516684d2-ae20-4fd1-9c9c-c7ad5e9b7918)
+![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/d77cf90a-bd17-44a8-8fc8-ea0ee9ea632b)
+
 
 # PhytoKmerCNV
 
