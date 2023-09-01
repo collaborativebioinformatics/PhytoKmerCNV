@@ -63,4 +63,4 @@ COV=$(awk '{ sum += $2 } END { print sum }' counts_all.txt)
 EST=$(awk '{ sum += $2 } END { mean = sum / NR; print mean }' counts_chosen.txt)
 
 ## write out
-echo "sample_name\t""$COV""\t""$EST"
+echo -e "sample_name\t""$COV""\t""$EST"
