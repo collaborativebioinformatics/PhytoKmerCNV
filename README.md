@@ -1,9 +1,9 @@
 ![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/d77cf90a-bd17-44a8-8fc8-ea0ee9ea632b)
 
 
-# PhytoKmerCNV
+# PhytoKmerCNV: Assembly-free gene copy number estimates from whole genome sequencing reads using K-mers
 
-This project is a product of the 2023 Pan-Structural Variation Hackathon in the Cloud that took place from 8/30-9/1/2023 hosted by [Baylor College of Medicine](https://www.bcm.edu) and sponsored by [DNAnexus](https://www.dnanexus.com). 
+This project is a product of the 2023 Pan-Structural Variation Hackathon in the Cloud that took place from 8/30-9/1/2023 hosted by [Baylor College of Medicine](https://www.bcm.edu) and sponsored by [DNAnexus](https://www.dnanexus.com) and [PacBio](https://www.pacb.com). 
 
 ## Team
 ![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/15585c2b-4060-45ad-94ec-a8c7f6adefb9)
