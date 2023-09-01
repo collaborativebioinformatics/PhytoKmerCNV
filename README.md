@@ -1,5 +1,6 @@
-![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/d77cf90a-bd17-44a8-8fc8-ea0ee9ea632b)
-
+<p align="center">
+  ![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/d77cf90a-bd17-44a8-8fc8-ea0ee9ea632b)
+</p>
 
 # PhytoKmerCNV: Assembly-free gene copy number estimates from whole genome sequencing reads using K-mers
 
