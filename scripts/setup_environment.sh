@@ -14,3 +14,6 @@ bash Mambaforge-Linux-x86_64.sh -b -u -p $CONDA_PREFIX
 cd $REPO_DIR
 
 $CONDA_PREFIX/bin/mamba env create --file $ENV_FILE
+
+# activate the conda distribution
+$CONDA_PREFIX/bin/mamba init

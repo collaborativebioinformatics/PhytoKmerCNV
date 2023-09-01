@@ -40,7 +40,7 @@
 * Start an analysis with the `tty` image
 * git clone this repository and cd into the checked out repository
 * Set up the compute environment by executing `scripts/setup_environment.sh`. This creates the conda environment `plantkmer` that installs all required software.
-* Add the conda distribution to the path: `PATH=~/miniconda3/bin:$PATH`
+* Re-read the bash config file: `source ~/.bashrc`
 * Activate the project environment using `conda activate plantkmer`
 * The data in the DNAnexus environment is available in `/mnt/project/`
 
