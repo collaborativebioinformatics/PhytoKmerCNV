@@ -15,7 +15,7 @@ Here we present PhytoKmerCNV, an alternative approach for producing copy number 
 
 Our method demonstrates great promise as a reference-free approach for genotyping copy number variation (CNV) using whole-genome sequencing (WGS) reads. It fills a critical niche by offering a valuable tool for analyzing genomes that have not been extensively resequenced, particularly non-model systems with limited genomic resources. Moreover, its ploidy-agnostic nature makes it adaptable to genomes with varying levels of ploidy.
 
-## Pipeline
+## Pipeline Overview
 ![PhytoKmerCNV drawio](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/100a3e16-ef06-4f4b-b929-bc9a32f2997d)
 
 The pipeline takes as input whole-genome sequencing reads. The reads are first adapter and quality trimmed before being converted to FASTA format. The FASTA formatted reads are then queried to a database of NBS-LRR proteins to identify reads likely containing sequences from genes of this family (hereafter captured reads). K-mers are then counted in both the captured reads as well as the full sample and the distributions are then used to produce copy number estimates. 
@@ -66,7 +66,7 @@ Objective: Assess CNV using low-pass sequencing data to reduce costs.
 * Output: CNV Estimates (CSV): A table providing CNV estimates for NBS-LRR genes using the cost-effective low-pass sequencing approach (e.g., "CNV_estimates_low_pass_genomes.csv").
 
 
-## Future work
+## Future Work
 * get the pipeline working!
 * test the pipeline using the tomato data
 * test and tune various parameters to improve CNVs
