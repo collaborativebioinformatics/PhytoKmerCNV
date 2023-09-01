@@ -11,3 +11,4 @@ dependencies:
   - samtools =1.17
   - sra-tools =3.0.7
   - awscli
+  - fastp =0.23.4
