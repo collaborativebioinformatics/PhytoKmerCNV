@@ -76,12 +76,14 @@ Objective: Assess CNV using low-pass sequencing data to reduce costs.
 
 
 ## Future Work
+
+Over the next week: 
 * get the pipeline working!
 * test the pipeline using the tomato data
 * test and tune various parameters to improve CNVs
 * apply the tool to other systems!!! :)  
 
-Next Steps: Moving forward, several promising next steps are on the horizon.
+Over the next year: Moving forward, several promising next steps are on the horizon.
 
 - Expansion to Other Plant Species: Extending the application of PhytoKmerCNV to a broader range of plant species, especially those with unique genomic characteristics, will enhance its utility in diverse research contexts.
 
