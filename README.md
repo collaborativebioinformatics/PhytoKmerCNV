@@ -1,3 +1,5 @@
+![image](https://github.com/collaborativebioinformatics/SVHack_Plants/assets/30478823/a6b830dc-dc83-4df7-9c6c-3ebd715c74e1)
+
 # PhytoKmerCNV
 
 This project is a product of the 2023 Pan-Structural Variation Hackathon in the Cloud that took place from 8/30-9/1/2023 hosted by [Baylor College of Medicine](https://www.bcm.edu) and sponsored by [DNAnexus](https://www.dnanexus.com). 
