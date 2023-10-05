@@ -41,7 +41,7 @@ makeblastdb -in PF00931.fa -dbtype prot -out PF00931_db
 
 # identify reads with putative homology to domain
 ## query reads for homology to domain
-blastx -query temp.fasta -num_threads $threads -db PF00931_db -out blast_results.txt -outfmt 6 -word_size 5
+blastx -task blastx-fast -query temp.fasta -num_threads $threads -db PF00931_db -out blast_results.txt -outfmt 6 -evalue 1 -mt_mode 1
 
 ## filter blast result (filtering for length of match >= 20 & E value less than 1)
 awk -F'\t' '($4 >= 20  && $11 < 1)' blast_results.txt > blast_results_filtered.txt
@@ -58,18 +58,16 @@ xargs samtools faidx temp.fasta < extract.txt > chosenones.fa
 
 ## count k-mers in all seqs
 ### generate hash table of canonical K-mers (output is mer_counts.jf, singletons not filtered!)
-jellyfish count -m 21 -s 100M -t 2 -C temp.fasta
-
-### generate tab output
+jellyfish count -m 21 -s 100M -t $threads -C temp.fasta -o mer_counts.jf
 jellyfish dump -c mer_counts.jf > counts_all.txt
 
 ## count k-mers in chosenones
-jellyfish count -m 21 -s 100M -t 2 -C chosenones.fa
+jellyfish count -m 21 -s 100M -t $threads -C chosenones.fa -o mer_counts.jf
 jellyfish dump -c mer_counts.jf > counts_chosen.txt
 
 ## output the sum of all k-mers (~coverage) and the mean of k-mers in the chosen ones 
 COV=$(awk '{ sum += $2 } END { print sum }' counts_all.txt)
-EST=$(awk '{ sum += $2 } END { mean = sum / NR; print mean }' counts_chosen.txt)
+EST=$(awk '{ sum += $2 } END { print sum }' counts_chosen.txt)
 
 ## write out
-echo -e "sample_name\t""$COV""\t""$EST"
+echo -e "$BASE""\t""$COV""\t""$EST"

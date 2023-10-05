@@ -1,0 +1,33 @@
+run_accession	study_accession	sample_accession	tax_id	scientific_name	fastq_md5	fastq_ftp	sample_alias
+SRR15243707	PRJNA733299	SAMN20298915	4081	Solanum lycopersicum	c3ff29f64a9497d73eb5b162a1b1e963	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/007/SRR15243707/SRR15243707_subreads.fastq.gz	Heinz_1706
+SRR15243716	PRJNA733299	SAMN20298907	195583	Solanum lycopersicum var. cerasiforme	39b8136109aefaeec68fc9d00dd4da68	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/016/SRR15243716/SRR15243716_subreads.fastq.gz	TS_623
+SRR15243717	PRJNA733299	SAMN20298906	195583	Solanum lycopersicum var. cerasiforme	22c27de60e5a14944e5ac70f67b747cf	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/017/SRR15243717/SRR15243717_subreads.fastq.gz	TS_238
+SRR15243718	PRJNA733299	SAMN20298905	195583	Solanum lycopersicum var. cerasiforme	1501f558b8340579e4faf015ed28788f	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/018/SRR15243718/SRR15243718_subreads.fastq.gz	TS_281
+SRR15243720	PRJNA733299	SAMN20298886	4081	Solanum lycopersicum	c161be6b8f03dee5bc5ff1ac704ff041	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/020/SRR15243720/SRR15243720_subreads.fastq.gz	TS_331
+SRR15243724	PRJNA733299	SAMN20298900	195583	Solanum lycopersicum var. cerasiforme	e539733a61cc53fffdd325b346fd803c	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/024/SRR15243724/SRR15243724_subreads.fastq.gz	TS_39
+SRR15243730	PRJNA733299	SAMN20298894	4081	Solanum lycopersicum	e32b5ffed7bc5b6b5f37fa643c0a6eb6	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/030/SRR15243730/SRR15243730_subreads.fastq.gz	TS_80
+SRR15243702	PRJNA733299	SAMN20298892	4081	Solanum lycopersicum	549c6483a78f3453760f59bb4d0200a0	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/002/SRR15243702/SRR15243702_subreads.fastq.gz	TS_171
+SRR15243703	PRJNA733299	SAMN20298891	4081	Solanum lycopersicum	70d6686559ddf60d70bc98458cb4a551	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/003/SRR15243703/SRR15243703_subreads.fastq.gz	TS_629
+SRR15243705	PRJNA733299	SAMN20298889	4081	Solanum lycopersicum	569d496efa3b6b09fac3c08a7a472dd7	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/005/SRR15243705/SRR15243705_subreads.fastq.gz	TS_117
+SRR15243706	PRJNA733299	SAMN20298888	4081	Solanum lycopersicum	27a301c28ec97101b58833282da8385c	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/006/SRR15243706/SRR15243706_subreads.fastq.gz	TS_204
+SRR15243708	PRJNA733299	SAMN20298914	4084	Solanum pimpinellifolium	c4e3e35005258cbfdfb07f256d566f06	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/008/SRR15243708/SRR15243708_subreads.fastq.gz	PP
+SRR15243711	PRJNA733299	SAMN20298912	4084	Solanum pimpinellifolium	84280cce52ec50db72db1e3c58ebcd4e	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/011/SRR15243711/SRR15243711_subreads.fastq.gz	TS_421
+SRR15243712	PRJNA733299	SAMN20298911	4084	Solanum pimpinellifolium	2df281cb7fd7f3e901c115be4a04bcba	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/012/SRR15243712/SRR15243712_subreads.fastq.gz	TS_265
+SRR15243713	PRJNA733299	SAMN20298910	4084	Solanum pimpinellifolium	4044926db26517a05b8472c229d92a8f	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/013/SRR15243713/SRR15243713_subreads.fastq.gz	TS_156
+SRR15243714	PRJNA733299	SAMN20298909	4084	Solanum pimpinellifolium	a9d80563ee5a5bc3ac3fe261b917fe4a	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/014/SRR15243714/SRR15243714_subreads.fastq.gz	TS_439
+SRR15243715	PRJNA733299	SAMN20298908	4084	Solanum pimpinellifolium	84ca1ea4c457e164eb9eb59eaa869f85	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/015/SRR15243715/SRR15243715_subreads.fastq.gz	TS_15
+SRR15243719	PRJNA733299	SAMN20298904	4084	Solanum pimpinellifolium	5e9006fc9f87acb06dbb3e50ce48187e	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/019/SRR15243719/SRR15243719_subreads.fastq.gz	TS_222
+SRR15243721	PRJNA733299	SAMN20298903	4081	Solanum lycopersicum	71efb0c533d3a8dac091a780c4b1feeb	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/021/SRR15243721/SRR15243721_subreads.fastq.gz	TS_692
+SRR15243722	PRJNA733299	SAMN20298902	195583	Solanum lycopersicum var. cerasiforme	608e209d9ecf4c0ddd873fd2f98e59ed	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/022/SRR15243722/SRR15243722_subreads.fastq.gz	TS_118
+SRR15243723	PRJNA733299	SAMN20298901	195583	Solanum lycopersicum var. cerasiforme	bc0092208c4c2c3ec57d7675d7ba9e6f	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/023/SRR15243723/SRR15243723_subreads.fastq.gz	TS_96
+SRR15243728	PRJNA733299	SAMN20298896	4081	Solanum lycopersicum	93edcfef4f8229d35d473e703c47d268	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/028/SRR15243728/SRR15243728_subreads.fastq.gz	TS_112
+SRR15243731	PRJNA733299	SAMN20298885	4081	Solanum lycopersicum	c5bf977a58b246575cc73c203045350e	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/031/SRR15243731/SRR15243731_subreads.fastq.gz	TS_3
+SRR15243732	PRJNA733299	SAMN20298884	4081	Solanum lycopersicum	acb639aae1550da5a1860a1a8ba58a76	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/032/SRR15243732/SRR15243732_subreads.fastq.gz	MM
+SRR15243701	PRJNA733299	SAMN20298893	4081	Solanum lycopersicum	32d217b14f237284ba31cb0e4d2def54	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/001/SRR15243701/SRR15243701_subreads.fastq.gz	TS_12
+SRR15243704	PRJNA733299	SAMN20298890	4081	Solanum lycopersicum	233b59cffba2b6cff07b23306b31f994	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/004/SRR15243704/SRR15243704_subreads.fastq.gz	TS_166
+SRR15243709	PRJNA733299	SAMN20298887	4081	Solanum lycopersicum	1a472ab5bfb392c39ba8c78bb6715928	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/009/SRR15243709/SRR15243709_subreads.fastq.gz	TS_9
+SRR15243710	PRJNA733299	SAMN20298913	4084	Solanum pimpinellifolium	a01cc9e1f82be83706e202a44f34d3c8	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/010/SRR15243710/SRR15243710_subreads.fastq.gz	TS_413
+SRR15243725	PRJNA733299	SAMN20298899	195583	Solanum lycopersicum var. cerasiforme	fc78f4083188320e2256705035db8449	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/025/SRR15243725/SRR15243725_subreads.fastq.gz	TS_545
+SRR15243726	PRJNA733299	SAMN20298898	195583	Solanum lycopersicum var. cerasiforme	301157c7633ea475c8196a1f5b3bba9a	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/026/SRR15243726/SRR15243726_subreads.fastq.gz	TS_280
+SRR15243727	PRJNA733299	SAMN20298897	4081	Solanum lycopersicum	6de2062c48671d733f4f8217ed664d71	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/027/SRR15243727/SRR15243727_subreads.fastq.gz	TS_185
+SRR15243729	PRJNA733299	SAMN20298895	4081	Solanum lycopersicum	f3825db8362e6f207c3e0ff49da3a17b	ftp.sra.ebi.ac.uk/vol1/fastq/SRR152/029/SRR15243729/SRR15243729_subreads.fastq.gz	TS_60
